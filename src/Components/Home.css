@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+.blogPost_container {
+    width: 875px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.blogPost_title {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+
+.blogPost_body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blogPost_p {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blogPost_published {
+    margin-top: -20px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blogPost_author {
+    margin-top: -20px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: black;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(246, 250, 253);
+    border: none;
+    margin: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+}
+
+.select_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+}
+
+select {
+    height: 20px;
+    width: 40px;
+}

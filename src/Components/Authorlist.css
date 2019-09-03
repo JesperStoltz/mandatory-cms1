@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+.author_container {
+    width: 875px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.row_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.author_name {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+
+.author_info {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 675px;
+}
+
+.author_imageContainer {
+    width: 200px;
+}
+
+.author_image {
+    width: 200px;
+}

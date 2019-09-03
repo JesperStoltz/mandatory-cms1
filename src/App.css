@@ -1,33 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+body {
+  padding:0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+width: 1200px;
+background-color: rgb(246, 250, 253);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+header {
+width: 1200px;
+height: 100px;
+background-color: rgb(246, 250, 253);
+border-bottom: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+aside {
+width: 300px;
+height: 700px;
+background: rgb(246, 250, 253);;
+margin-left: 900px;
+display: flex;
+justify-content: center;
+flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+height: 700px;
+width: 900px;
+margin-top: -700px;
+overflow-y: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+main::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgb(246, 250, 253);
+	background-color: #F5F5F5;
+}
+
+main::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+main::-webkit-scrollbar-thumb
+{
+	background-color: rgb(58, 61, 62);
+	border: 2px solid #555555;
+}
+
+.header_title {
+  font-family: 'Cinzel', serif;
+  font-size: 80px;
+}
+
+.aside_title {
+  font-family: 'Cinzel', serif;
+  font-size: 80px;
+  margin-top: 0px;
+}
+
+.aside_pagelist{
+  width: 297px;
+  height: 498px;
+  margin-top: -70px;
+}
+
+.pageList_ul {
+  list-style: none;
+}
+
+.pageList_li {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.pageList_li:visited {
+  color: black;
 }

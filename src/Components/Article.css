@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+.singleBlogPost_container {
+    width: 875px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.singleBlogPost_title {
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+}
+
+.singleBlogPost_body {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.singleBlogPost_p {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.singleBlogPost_published {
+    margin-top: -20px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.singleBlogPost_author {
+    margin-top: -20px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
